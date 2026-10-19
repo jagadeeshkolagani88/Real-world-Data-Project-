@@ -1,0 +1,29 @@
+REAL-WORLD RETAIL SALES ANALYSIS — SUMMARY REPORT
+
+Dataset note:
+The included dataset is synthetic sample data created for educational practice. It does not represent real customers or a real company.
+
+Data cleaning:
+- Removed exact duplicate rows.
+- Converted dates and numeric fields to appropriate types.
+- Removed rows with missing dates, products, categories, or unit prices.
+- Replaced missing region labels with 'Unknown'.
+- Recalculated sales as quantity × unit price × (1 - discount).
+
+Key results:
+- Cleaned transaction rows: 1,194
+- Unique orders: 1,194
+- Total sales: ₹2,937,098.47
+- Average sales per order: ₹2,459.88
+- Highest-sales category: Clothing (₹1,440,325.50)
+- Highest-sales region: South (₹773,255.29)
+- Top product by sales: Sneakers (₹634,670.16)
+
+Recommendations:
+1. Keep sufficient inventory for the highest-sales categories and products.
+2. Compare monthly sales to plan promotions and inventory.
+3. Investigate low-performing categories before changing prices or marketing spend.
+4. Repeat the analysis with actual business data before making real business decisions.
+
+How to interpret:
+These results describe the included synthetic dataset only. They should not be presented as findings about a real company.
